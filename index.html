@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>shopper's stop</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--navbar-->	
+<nav class="navbar navbar-expand-md navbar-light bg-light stiky-top">
+	<div class="container-fluid">
+		 <a class="navbar-brand" href="#"><img src="img/logo.png"><sub>shopping unleashed</sub></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+     <span class="navbar-toggler-icon"></span> 
+    </button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">products</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">about us</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">contact</a>
+			</li>
+		</ul>
+	</div>
+	</div>
+</nav>
+<!--image slider-->
+<div id="slides" class="carousel-slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slides-to="0" class="active"></li>
+		<li data-target="#slides" data-slides-to="1"></li>
+		<li data-target="#slides" data-slides-to="2"></li>
+		<li data-target="#slides" data-slides-to="3"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="img/bg1.png">
+			<div class="carousel-caption">
+				<h1>The Best Shopping Site In Town</h1>
+				<button type="button" class="btn btn-outline-light btn-lg" href="#">Sign Up</button>
+				<button type="button" class="btn btn-primary btn-lg" href="#">Shop Now</button>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="img/bg2.png">
+		</div>
+		<div class="carousel-item">
+			<img src="img/bg3.png">
+		</div>
+		<div class="carousel-item">
+			<img src="img/bg4.png">
+		</div>
+	</div>
+</div>
+<!--jumbotron-->
+<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+			<button type="button" class="btn btn-outline-dark btn-md">Read More</button>
+		</div>
+	</div>
+</div>
+<!--cards for products-->
+<div class="container-fluid padding">
+	<div class="row padding">
+	  <div class="col-md-4">
+		<div class="card">
+             <img class="card-img-top" src="img/p1.png">
+            <div class="card-body">
+            <h2>Cello Black Backpack</h2>
+            <p>₹1,500 <sub id="s">15% off</sub></p>
+            <a href="#" class="btn btn-outline-secondary">add to cart</a>
+            <a href="#" class="btn btn-outline-secondary">view</a>
+            </div>
+        </div>
+	  </div>
+	  <div class="col-md-4">
+		<div class="card">
+             <img class="card-img-top" src="img/p2.png">
+            <div class="card-body">
+            <h2>UCB blue bag</h2>
+            <p>₹2,500 <sub id="s">0% off</sub></p>
+            <a href="#" class="btn btn-outline-secondary">add to cart</a>
+            <a href="#" class="btn btn-outline-secondary">view</a>
+            </div>
+        </div>
+	  </div>
+	  <div class="col-md-4">
+		<div class="card">
+             <img class="card-img-top" src="img/p3.png">
+            <div class="card-body">
+            <h2>Samsung j2</h2>
+            <p>₹15,000 <sub id="s">10% off</sub></p>
+            <a href="#" class="btn btn-outline-secondary">add to cart</a>
+            <a href="#" class="btn btn-outline-secondary">view</a>
+            </div>
+        </div>
+	  </div>
+	  <div class="col-md-4">
+		<div class="card">
+             <img class="card-img-top" src="img/p1.png">
+            <div class="card-body">
+            <h2>armani Black Backpack</h2>
+            <p>₹6,000 <sub id="s">5% off</sub></p>
+            <a href="#" class="btn btn-outline-secondary">add to cart</a>
+            <a href="#" class="btn btn-outline-secondary">view</a>
+            </div>
+        </div>
+	  </div>
+	  <div class="col-md-4">
+		<div class="card">
+             <img class="card-img-top" src="img/p2.png">
+            <div class="card-body">
+            <h2>nike blue bag</h2>
+            <p>₹500 <sub id="s">50% off</sub></p>
+            <a href="#" class="btn btn-outline-secondary">add to cart</a>
+            <a href="#" class="btn btn-outline-secondary">view</a>
+            </div>
+        </div>
+	  </div>
+	  <div class="col-md-4">
+		<div class="card">
+             <img class="card-img-top" src="img/p3.png">
+            <div class="card-body">
+            <h2>redmi note 5pro</h2>
+            <p>₹4,000 <sub id="s">60% off</sub></p>
+            <a href="#" class="btn btn-outline-secondary">add to cart</a>
+            <a href="#" class="btn btn-outline-secondary">view</a>
+            </div>
+        </div>
+	  </div>
+	  <div class="col-md-4">
+		<div class="card">
+             <img class="card-img-top" src="img/p1.png">
+            <div class="card-body">
+            <h2>redtape Black Backpack</h2>
+            <p>₹5,000<sub id="s">0% off</sub></p>
+            <a href="#" class="btn btn-outline-secondary">add to cart</a>
+            <a href="#" class="btn btn-outline-secondary">view</a>
+            </div>
+        </div>
+	  </div>
+	  <div class="col-md-4">
+		<div class="card">
+             <img class="card-img-top" src="img/p2.png">
+            <div class="card-body">
+            <h2>skybag Black Backpack</h2>
+            <p>₹2,000 <sub id="s">3% off</sub></p>
+            <a href="#" class="btn btn-outline-secondary">add to cart</a>
+            <a href="#" class="btn btn-outline-secondary">view</a>
+            </div>
+        </div>
+	  </div>
+	</div>
+</div>
+<hr class="my-4">
+<!--connect-->
+<div class="container-fluid paddding">
+	<div class="row text-center">
+		<div class="col-12">
+			<h2>Connect</h2>
+			<hr class="text-center col-md-4 col-sm-4">
+		</div>
+		<div class="col-12 social padding">
+			<a href="www.facebook.com"><i class="fab fa-facebook"></i></a>
+			<a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
+			<a href="www.googleplus.com"><i class="fab fa-google-plus-g"></i></a>
+			<a href="www.instagram.com"><i class="fab fa-instagram"></i></a>
+		</div>
+	</div>
+    <br>
+    <br>
+</div>
+<!--footer-->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+			<img src="img/logo.png">
+			<hr class="light">
+			<p>788-723-3578</p>
+			<p>DIT University</p>
+			<p>Dehradun Uttarakhand 284049</p>	
+			</div>
+			<div class="col-md-4">
+			<hr class="light">	
+			<h1>our working days and hours</h1>
+			<hr class="light">
+			<p>Monday-Sunday</p>
+			<p>Monday-Saturday->9 A.M. to 9 P.M</p>
+			<p>Sunday->9 A.M to 5 P.M</p>	
+			</div>
+			<div class="col-md-4">
+			<hr class="light">
+			<h1>Other offices</h1>
+		    <hr class="light">
+			<p>Chennai</p>
+			<p>Delhi</p>
+			<p>Bangaluru</p>	
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
